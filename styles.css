@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#verification_heading {
+    color: #333;
+}
+
+#verification_subtext {
+    color: #666;
+}
+
+.code-container {
+    margin-top: 20px;
+}
+
+.code {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    margin: 0 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
